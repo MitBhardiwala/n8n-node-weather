@@ -24,6 +24,14 @@ export class Weather implements INodeType {
 					request: { url: 'https://api.sampleapis.com/coffee/hot' },
 				},
 			},
+			{
+				displayName: 'District',
+				name: 'district',
+				type: 'string',
+				default: '',
+				placeholder: 'e.g. district',
+				required: true,
+			},
 		],
 	};
 }
